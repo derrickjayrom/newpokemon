@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pokemonapi/screens/favoritetab.dart';
-import 'package:pokemonapi/screens/homescreen.dart';
-import 'package:pokemonapi/screens/settingstab.dart';
+import 'package:pokemonapi/presentation/screens/favoritetab.dart';
+import 'package:pokemonapi/presentation/screens/homescreen.dart';
+import 'package:pokemonapi/presentation/screens/settingstab.dart';
 
-import 'package:pokemonapi/widgets/pokemon_bottom_nav.dart';
+import 'package:pokemonapi/presentation/widgets/pokemon_bottom_nav.dart';
 
 class PokemonIndexScreen extends StatefulWidget {
   const PokemonIndexScreen({super.key});

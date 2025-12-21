@@ -1,5 +1,5 @@
-import 'package:pokemonapi/model/ability_model.dart';
-import 'package:pokemonapi/model/version_group_detail.dart';
+import 'package:pokemonapi/data/model/ability_model.dart';
+import 'package:pokemonapi/data/model/version_group_detail.dart';
 
 
 class Moves {

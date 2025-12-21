@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
-import 'package:pokemonapi/model/pokemon_details_model.dart';
-import 'package:pokemonapi/model/pokemon_model.dart';
-import 'package:pokemonapi/widgets/pokemon_basic_info.dart';
-import 'package:pokemonapi/widgets/pokemon_cry_button.dart';
-import 'package:pokemonapi/widgets/pokemon_image_card.dart';
-import 'package:pokemonapi/widgets/pokemon_type.dart';
+import 'package:pokemonapi/data/model/pokemon_details_model.dart';
+import 'package:pokemonapi/data/model/pokemon_model.dart';
+import 'package:pokemonapi/presentation/widgets/pokemon_basic_info.dart';
+import 'package:pokemonapi/presentation/widgets/pokemon_cry_button.dart';
+import 'package:pokemonapi/presentation/widgets/pokemon_image_card.dart';
+import 'package:pokemonapi/presentation/widgets/pokemon_type.dart';
 import '../widgets/pokemon_stats_list.dart';
 import '../widgets/pokemon_curved_header.dart';
 import '../widgets/pokemon_about_section.dart';
@@ -223,7 +223,7 @@ class _PokemonDetailScreenState extends State<PokemonDetailScreen> {
 
                   const SizedBox(height: 24),
 
-                  // --- Stats ---
+              
                   const Text(
                     'Stats',
                     style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),

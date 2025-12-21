@@ -1,4 +1,4 @@
-import 'package:pokemonapi/model/ability_model.dart';
+import 'package:pokemonapi/data/model/ability_model.dart';
 
 class VersionGroupDetails {
   int? levelLearnedAt;

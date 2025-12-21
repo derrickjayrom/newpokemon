@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokemonapi/widgets/pokemon_header_watermark.dart';
+import 'package:pokemonapi/presentation/widgets/pokemon_header_watermark.dart';
 
 class PokemonCurvedHeader extends StatelessWidget {
   final Color backgroundColor;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokemonapi/widgets/pokemon_circular_nav_button.dart';
+import 'package:pokemonapi/presentation/widgets/pokemon_circular_nav_button.dart';
 
 class PokemonImageCard extends StatelessWidget {
   final Color color;

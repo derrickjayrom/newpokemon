@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokemonapi/util/appcolor.dart';
+import 'package:pokemonapi/core/constant/appcolor.dart';
 
 class PokemonAboutSection extends StatelessWidget {
   final String description;

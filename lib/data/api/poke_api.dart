@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:logger/logger.dart';
-import 'package:pokemonapi/model/pokemon_details_model.dart';
-import 'package:pokemonapi/model/pokemon_model.dart';
+import 'package:pokemonapi/data/model/pokemon_details_model.dart';
+import 'package:pokemonapi/data/model/pokemon_model.dart';
 
 class PokeApi {
   static Future<List<PokemonModel>> getPokemonData({

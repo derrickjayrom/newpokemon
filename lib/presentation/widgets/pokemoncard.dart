@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
-import 'package:pokemonapi/api/poke_api.dart';
-import 'package:pokemonapi/model/pokemon_details_model.dart';
-import 'package:pokemonapi/model/pokemon_model.dart';
-import 'package:pokemonapi/screens/pokemon_details_screen.dart';
+import 'package:pokemonapi/data/model/api/poke_api.dart';
+import 'package:pokemonapi/data/model/pokemon_details_model.dart';
+import 'package:pokemonapi/data/model/pokemon_model.dart';
+import 'package:pokemonapi/presentation/screens/pokemon_details_screen.dart';
 
-import 'package:pokemonapi/util/generate_consistent_color.dart';
+import 'package:pokemonapi/core/utils/generate_consistent_color.dart';
 
 class Pokemoncard extends StatefulWidget {
   final List<PokemonModel> pokemons;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
-import 'package:pokemonapi/api/poke_api.dart';
-import 'package:pokemonapi/model/pokemon_model.dart';
-import 'package:pokemonapi/widgets/pokemoncard.dart';
+import 'package:pokemonapi/data/api/poke_api.dart';
+import 'package:pokemonapi/data/model/pokemon_model.dart';
+import 'package:pokemonapi/presentation/widgets/pokemoncard.dart';
 
 class Homescreen extends StatefulWidget {
   const Homescreen({super.key});

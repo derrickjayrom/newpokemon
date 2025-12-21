@@ -1,6 +1,6 @@
-import 'package:pokemonapi/model/ability_model.dart';
-import 'package:pokemonapi/model/move_model.dart';
-import 'package:pokemonapi/model/sprite_model.dart';
+import 'package:pokemonapi/data/model/ability_model.dart';
+import 'package:pokemonapi/data/model/move_model.dart';
+import 'package:pokemonapi/data/model/sprite_model.dart';
 
 class PokemonDetailsModel {
   int? id;
