@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
-import 'package:pokemonapi/data/model/api/poke_api.dart';
+import 'package:pokemonapi/data/api/poke_api.dart';
+
 import 'package:pokemonapi/data/model/pokemon_details_model.dart';
 import 'package:pokemonapi/data/model/pokemon_model.dart';
 import 'package:pokemonapi/presentation/screens/pokemon_details_screen.dart';
