@@ -13,7 +13,7 @@ class PokeApi {
       "https://pokeapi.co/api/v2/pokemon?limit=$limit&offset=$offset",
     );
     final response = await http.get(uri);
-    Logger().i("initialcl general response: ${response.body}");
+    Logger().i("initial general response: ${response.body}");
     if (response.statusCode != 200) {
       throw Exception("Failed to load Pokemon List: ${response.statusCode}");
     }

@@ -5,8 +5,8 @@ import 'package:pokemonapi/data/model/pokemon_model.dart';
 import 'package:pokemonapi/presentation/widgets/pokemon_basic_info.dart';
 import 'package:pokemonapi/presentation/widgets/pokemon_cry_button.dart';
 import 'package:pokemonapi/presentation/widgets/pokemon_image_card.dart';
+import 'package:pokemonapi/presentation/widgets/pokemon_stats_list.dart';
 import 'package:pokemonapi/presentation/widgets/pokemon_type.dart';
-import '../widgets/pokemon_stats_list.dart';
 import '../widgets/pokemon_curved_header.dart';
 import '../widgets/pokemon_about_section.dart';
 
@@ -217,13 +217,12 @@ class _PokemonDetailScreenState extends State<PokemonDetailScreen> {
 
                   PokemonBasicInfo(
                     weight: _details?.weight,
-                    height: _details?.height, 
+                    height: _details?.height,
                     ability: _capitalize(_abilityName),
                   ),
 
                   const SizedBox(height: 24),
 
-              
                   const Text(
                     'Stats',
                     style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
